@@ -1,0 +1,815 @@
+{
+ "timezone_note": "Saatler UTC. Türkiye = UTC+3 (12:30 TR = 09:30 UTC, 19:00 TR = 16:00 UTC)",
+ "items": [
+  {
+   "id": "day01-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-03T09:30:00Z",
+   "image": "media/stories/edutaly_story_01.jpg",
+   "caption": "",
+   "topic": "İtalya'da oku"
+  },
+  {
+   "id": "day01-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-03T16:00:00Z",
+   "image": "media/posts/edutaly_post_01.jpg",
+   "caption": "2027–28 başvuruları açıldı. İtalya'da üniversite okumak istiyorsan, üniversite seçiminden kayda kadar her adımda yanındayız.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #2027",
+   "topic": "İtalya'da oku"
+  },
+  {
+   "id": "day01-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-03T16:00:00Z",
+   "image": "media/posts/edutaly_post_01.jpg",
+   "caption": "İtalya'da üniversite okumak mı? 2027–28 başvuruları açık 🇮🇹\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #2027",
+   "topic": "İtalya'da oku"
+  },
+  {
+   "id": "day02-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-04T09:30:00Z",
+   "image": "media/stories/edutaly_story_02.jpg",
+   "caption": "",
+   "topic": "Bologna 1088"
+  },
+  {
+   "id": "day02-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-04T16:00:00Z",
+   "image": "media/posts/edutaly_post_02.jpg",
+   "caption": "Bologna Üniversitesi 1088'de kuruldu ve bugün hâlâ eğitim veren Batı dünyasının en eski üniversitesi. Böyle bir geleneğin parçası olmak ister misin?\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #bologna #unibo",
+   "topic": "Bologna 1088"
+  },
+  {
+   "id": "day02-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-04T16:00:00Z",
+   "image": "media/posts/edutaly_post_02.jpg",
+   "caption": "1088'den beri eğitim veren üniversite: Bologna 🎓\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #bologna #unibo",
+   "topic": "Bologna 1088"
+  },
+  {
+   "id": "day03-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-05T09:30:00Z",
+   "image": "media/stories/edutaly_story_03.jpg",
+   "caption": "",
+   "topic": "4 adımda İtalya"
+  },
+  {
+   "id": "day03-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-05T16:00:00Z",
+   "image": "media/posts/edutaly_post_03.jpg",
+   "caption": "Süreç düşündüğünden daha net:\n01 Ücretsiz görüşme\n02 Üniversite ve program seçimi\n03 Evrak ve başvuru\n04 Kabul ve kayıt\nHangi adımda olduğunu yaz, birlikte bakalım.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #başvuru",
+   "topic": "4 adımda İtalya"
+  },
+  {
+   "id": "day03-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-05T16:00:00Z",
+   "image": "media/posts/edutaly_post_03.jpg",
+   "caption": "4 adımda İtalya'da üniversite ✅\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #başvuru",
+   "topic": "4 adımda İtalya"
+  },
+  {
+   "id": "day04-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-06T09:30:00Z",
+   "image": "media/stories/edutaly_story_04.jpg",
+   "caption": "",
+   "topic": "Neden İtalya"
+  },
+  {
+   "id": "day04-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-06T16:00:00Z",
+   "image": "media/posts/edutaly_post_04.jpg",
+   "caption": "Köklü üniversiteler, gelire göre belirlenen harçlar ve Avrupa'da tanınan diploma. İtalya'yı tercih etmek için çok sebep var.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "Neden İtalya"
+  },
+  {
+   "id": "day04-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-06T16:00:00Z",
+   "image": "media/posts/edutaly_post_04.jpg",
+   "caption": "Neden İtalya? Kısaca anlatalım 👇\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "Neden İtalya"
+  },
+  {
+   "id": "day05-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-07T09:30:00Z",
+   "image": "media/stories/edutaly_story_05.jpg",
+   "caption": "",
+   "topic": "Politecnico di Torino"
+  },
+  {
+   "id": "day05-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-07T16:00:00Z",
+   "image": "media/posts/edutaly_post_05.jpg",
+   "caption": "1859'dan beri mühendislik, mimarlık ve tasarımda İtalya'nın öncülerinden. Castello del Valentino gibi tarihi kampüslerde ders almak bambaşka bir deneyim.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #politecnicoditorino #torino #mimarlık #mühendislik",
+   "topic": "Politecnico di Torino"
+  },
+  {
+   "id": "day05-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-07T16:00:00Z",
+   "image": "media/posts/edutaly_post_05.jpg",
+   "caption": "Politecnico di Torino: tarihi bir şatoda mimarlık okumak 🏰\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #politecnicoditorino #torino #mimarlık #mühendislik",
+   "topic": "Politecnico di Torino"
+  },
+  {
+   "id": "day06-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-08T09:30:00Z",
+   "image": "media/stories/edutaly_story_06.jpg",
+   "caption": "",
+   "topic": "Università di Bologna"
+  },
+  {
+   "id": "day06-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-08T16:00:00Z",
+   "image": "media/posts/edutaly_post_06.jpg",
+   "caption": "Avrupa'nın üniversite geleneğinin başladığı yer. Hemen her alanda bölüm ve İngilizce programlar.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #bologna #unibo",
+   "topic": "Università di Bologna"
+  },
+  {
+   "id": "day06-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-08T16:00:00Z",
+   "image": "media/posts/edutaly_post_06.jpg",
+   "caption": "Avrupa'nın en eski üniversitesinde okumak 📚\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #bologna #unibo",
+   "topic": "Università di Bologna"
+  },
+  {
+   "id": "day07-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-09T09:30:00Z",
+   "image": "media/stories/edutaly_story_07.jpg",
+   "caption": "",
+   "topic": "Università di Padova"
+  },
+  {
+   "id": "day07-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-09T16:00:00Z",
+   "image": "media/posts/edutaly_post_07.jpg",
+   "caption": "1222'de kuruldu, Galileo burada ders verdi. Tıp, mühendislik, psikoloji ve daha fazlası.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #padova #unipd",
+   "topic": "Università di Padova"
+  },
+  {
+   "id": "day07-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-09T16:00:00Z",
+   "image": "media/posts/edutaly_post_07.jpg",
+   "caption": "Galileo'nun ders verdiği üniversite: Padova 🔭\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #padova #unipd",
+   "topic": "Università di Padova"
+  },
+  {
+   "id": "day08-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-10T09:30:00Z",
+   "image": "media/stories/edutaly_story_08.jpg",
+   "caption": "",
+   "topic": "Sapienza"
+  },
+  {
+   "id": "day08-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-10T16:00:00Z",
+   "image": "media/posts/edutaly_post_08.jpg",
+   "caption": "1303'ten beri Roma'nın kalbinde. Avrupa'nın en büyük üniversitelerinden biri.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #sapienza #roma",
+   "topic": "Sapienza"
+  },
+  {
+   "id": "day08-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-10T16:00:00Z",
+   "image": "media/posts/edutaly_post_08.jpg",
+   "caption": "Roma'da üniversite: Sapienza 🏛️\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #sapienza #roma",
+   "topic": "Sapienza"
+  },
+  {
+   "id": "day09-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-11T09:30:00Z",
+   "image": "media/stories/edutaly_story_09.jpg",
+   "caption": "",
+   "topic": "Statale Milano"
+  },
+  {
+   "id": "day09-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-11T16:00:00Z",
+   "image": "media/posts/edutaly_post_09.jpg",
+   "caption": "Rönesans binası Ca' Granda'da eğitim. Tıp, hukuk ve fen bilimlerinde güçlü programlar.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #milano #unimi",
+   "topic": "Statale Milano"
+  },
+  {
+   "id": "day09-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-11T16:00:00Z",
+   "image": "media/posts/edutaly_post_09.jpg",
+   "caption": "Rönesans sarayında ders: Milano Statale ✨\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #milano #unimi",
+   "topic": "Statale Milano"
+  },
+  {
+   "id": "day10-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-12T09:30:00Z",
+   "image": "media/stories/edutaly_story_10.jpg",
+   "caption": "",
+   "topic": "Söz: Siena"
+  },
+  {
+   "id": "day10-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-12T16:00:00Z",
+   "image": "media/posts/edutaly_post_10.jpg",
+   "caption": "Bir şehir değil, bir hayat seçiyorsun. İtalya'da okumak sadece bir diploma değil.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #siena #öğrencihayatı",
+   "topic": "Söz: Siena"
+  },
+  {
+   "id": "day10-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-12T16:00:00Z",
+   "image": "media/posts/edutaly_post_10.jpg",
+   "caption": "Bir şehir değil, bir hayat seçiyorsun 🇮🇹\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #siena #öğrencihayatı",
+   "topic": "Söz: Siena"
+  },
+  {
+   "id": "day11-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-13T09:30:00Z",
+   "image": "media/stories/edutaly_story_11.jpg",
+   "caption": "",
+   "topic": "Burslar"
+  },
+  {
+   "id": "day11-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-13T16:00:00Z",
+   "image": "media/posts/edutaly_post_11.jpg",
+   "caption": "İtalya'da burs imkânları: bölgesel DSU bursları (barınma, yemek, nakit destek), üniversite bursları ve Erasmus+. Hangilerine uygun olduğunu ilk görüşmede birlikte değerlendiriyoruz.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #burs #dsu #erasmus",
+   "topic": "Burslar"
+  },
+  {
+   "id": "day11-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-13T16:00:00Z",
+   "image": "media/posts/edutaly_post_11.jpg",
+   "caption": "İtalya'da burs imkânları 💶\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #burs #dsu #erasmus",
+   "topic": "Burslar"
+  },
+  {
+   "id": "day12-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-14T09:30:00Z",
+   "image": "media/stories/edutaly_story_12.jpg",
+   "caption": "",
+   "topic": "Biz ne yaparız"
+  },
+  {
+   "id": "day12-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-14T16:00:00Z",
+   "image": "media/posts/edutaly_post_12.jpg",
+   "caption": "Üniversite ve program seçimi, başvuru dosyası, evrak kontrolü, kabul ve kayıt takibi. Vize ve konsolosluk işlemleri hizmet kapsamımız dışındadır.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "Biz ne yaparız"
+  },
+  {
+   "id": "day12-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-14T16:00:00Z",
+   "image": "media/posts/edutaly_post_12.jpg",
+   "caption": "Edutaly ne yapar? ✅\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "Biz ne yaparız"
+  },
+  {
+   "id": "day13-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-15T09:30:00Z",
+   "image": "media/stories/edutaly_story_13.jpg",
+   "caption": "",
+   "topic": "Milano"
+  },
+  {
+   "id": "day13-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-15T16:00:00Z",
+   "image": "media/posts/edutaly_post_13.jpg",
+   "caption": "Moda, tasarım ve finansın kalbinde üniversite hayatı. Milano'da okumak kariyerine güçlü bir başlangıç demek.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #milano",
+   "topic": "Milano"
+  },
+  {
+   "id": "day13-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-15T16:00:00Z",
+   "image": "media/posts/edutaly_post_13.jpg",
+   "caption": "Milano'da öğrenci olmak 🏙️\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #milano",
+   "topic": "Milano"
+  },
+  {
+   "id": "day14-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-16T09:30:00Z",
+   "image": "media/stories/edutaly_story_14.jpg",
+   "caption": "",
+   "topic": "Torino"
+  },
+  {
+   "id": "day14-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-16T16:00:00Z",
+   "image": "media/posts/edutaly_post_14.jpg",
+   "caption": "Mühendislik ve mimarlığın başkenti. Alpler bir saat uzakta, şehir öğrenci dostu ve yaşaması keyifli.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #torino",
+   "topic": "Torino"
+  },
+  {
+   "id": "day14-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-16T16:00:00Z",
+   "image": "media/posts/edutaly_post_14.jpg",
+   "caption": "Torino'da öğrenci olmak 🏔️\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #torino",
+   "topic": "Torino"
+  },
+  {
+   "id": "day15-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-17T09:30:00Z",
+   "image": "media/stories/edutaly_story_15.jpg",
+   "caption": "",
+   "topic": "3+2 sistemi"
+  },
+  {
+   "id": "day15-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-17T16:00:00Z",
+   "image": "media/posts/edutaly_post_15.jpg",
+   "caption": "İtalya'da lisans (Laurea Triennale) 3 yıl, yüksek lisans (Laurea Magistrale) 2 yıl. Bologna sürecine uygun Avrupa sistemi.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #yükseklisans",
+   "topic": "3+2 sistemi"
+  },
+  {
+   "id": "day15-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-17T16:00:00Z",
+   "image": "media/posts/edutaly_post_15.jpg",
+   "caption": "İtalya'da lisans 3, yüksek lisans 2 yıl 🎓\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #yükseklisans",
+   "topic": "3+2 sistemi"
+  },
+  {
+   "id": "day16-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-18T09:30:00Z",
+   "image": "media/stories/edutaly_story_16.jpg",
+   "caption": "",
+   "topic": "Gerekli belgeler"
+  },
+  {
+   "id": "day16-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-18T16:00:00Z",
+   "image": "media/posts/edutaly_post_16.jpg",
+   "caption": "Başvuru için temel belgeler: diploma ve transkript, dil belgesi, pasaport, motivasyon mektubu. Dosyanı eksiksiz hazırlamak için yanındayız.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #başvuru",
+   "topic": "Gerekli belgeler"
+  },
+  {
+   "id": "day16-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-18T16:00:00Z",
+   "image": "media/posts/edutaly_post_16.jpg",
+   "caption": "İtalya başvurusu için gereken belgeler 📄\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #başvuru",
+   "topic": "Gerekli belgeler"
+  },
+  {
+   "id": "day17-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-19T09:30:00Z",
+   "image": "media/stories/edutaly_story_17.jpg",
+   "caption": "",
+   "topic": "Garda Gölü"
+  },
+  {
+   "id": "day17-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-19T16:00:00Z",
+   "image": "media/posts/edutaly_post_17.jpg",
+   "caption": "Dersler bitti, keşif başlasın. İtalya'da okurken hafta sonları bambaşka.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #garda #öğrencihayatı",
+   "topic": "Garda Gölü"
+  },
+  {
+   "id": "day17-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-19T16:00:00Z",
+   "image": "media/posts/edutaly_post_17.jpg",
+   "caption": "Hafta sonu planı: Garda Gölü 🌊\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #garda #öğrencihayatı",
+   "topic": "Garda Gölü"
+  },
+  {
+   "id": "day18-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-20T09:30:00Z",
+   "image": "media/stories/edutaly_story_18.jpg",
+   "caption": "",
+   "topic": "İtalyanca şart değil"
+  },
+  {
+   "id": "day18-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-20T16:00:00Z",
+   "image": "media/posts/edutaly_post_18.jpg",
+   "caption": "İtalya'da İngilizce eğitim veren yüzlerce program var. İtalyanca bilmeden de başvurabilirsin.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #ingilizceeğitim",
+   "topic": "İtalyanca şart değil"
+  },
+  {
+   "id": "day18-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-20T16:00:00Z",
+   "image": "media/posts/edutaly_post_18.jpg",
+   "caption": "İtalyanca bilmeden İtalya'da okunur mu? Evet 🇬🇧\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #ingilizceeğitim",
+   "topic": "İtalyanca şart değil"
+  },
+  {
+   "id": "day19-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-21T09:30:00Z",
+   "image": "media/stories/edutaly_story_19.jpg",
+   "caption": "",
+   "topic": "Hayalindeki bölüm"
+  },
+  {
+   "id": "day19-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-21T16:00:00Z",
+   "image": "media/posts/edutaly_post_19.jpg",
+   "caption": "Mühendislik, mimarlık, tıp, ekonomi, tasarım. Sen seç, biz yol gösterelim.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #bölümseçimi",
+   "topic": "Hayalindeki bölüm"
+  },
+  {
+   "id": "day19-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-21T16:00:00Z",
+   "image": "media/posts/edutaly_post_19.jpg",
+   "caption": "Hangi bölümü okumak istiyorsun? Yorumlara yaz 👇\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #bölümseçimi",
+   "topic": "Hayalindeki bölüm"
+  },
+  {
+   "id": "day20-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-22T09:30:00Z",
+   "image": "media/stories/edutaly_story_20.jpg",
+   "caption": "",
+   "topic": "Hemen yaz"
+  },
+  {
+   "id": "day20-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-22T16:00:00Z",
+   "image": "media/posts/edutaly_post_20.jpg",
+   "caption": "İlk görüşme ücretsiz. Sorularını bize yaz, sana uygun yolu birlikte çizelim.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "Hemen yaz"
+  },
+  {
+   "id": "day20-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-22T16:00:00Z",
+   "image": "media/posts/edutaly_post_20.jpg",
+   "caption": "İlk görüşme ücretsiz, hemen yaz 📲\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "Hemen yaz"
+  },
+  {
+   "id": "day21-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-23T09:30:00Z",
+   "image": "media/stories/edutaly_story_21.jpg",
+   "caption": "",
+   "topic": "Neden Edutaly"
+  },
+  {
+   "id": "day21-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-23T16:00:00Z",
+   "image": "media/posts/edutaly_post_21.jpg",
+   "caption": "Kişiye özel yol haritası, Türkiye ve İtalya'dan destek, şeffaf süreç ve kayda kadar takip.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "Neden Edutaly"
+  },
+  {
+   "id": "day21-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-23T16:00:00Z",
+   "image": "media/posts/edutaly_post_21.jpg",
+   "caption": "Neden Edutaly? 🤝\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "Neden Edutaly"
+  },
+  {
+   "id": "day22-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-24T09:30:00Z",
+   "image": "media/stories/edutaly_story_22.jpg",
+   "caption": "",
+   "topic": "Başvuru takvimi"
+  },
+  {
+   "id": "day22-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-24T16:00:00Z",
+   "image": "media/posts/edutaly_post_22.jpg",
+   "caption": "Kış: araştırma ve üniversite seçimi. İlkbahar: başvurular. Yaz: kabul ve kayıt. Sonbahar: dersler başlıyor. Programa göre tarihler değişir; seninkini birlikte netleştirelim.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #başvuru",
+   "topic": "Başvuru takvimi"
+  },
+  {
+   "id": "day22-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-24T16:00:00Z",
+   "image": "media/posts/edutaly_post_22.jpg",
+   "caption": "İtalya başvuru takvimi 📅\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #başvuru",
+   "topic": "Başvuru takvimi"
+  },
+  {
+   "id": "day23-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-25T09:30:00Z",
+   "image": "media/stories/edutaly_story_23.jpg",
+   "caption": "",
+   "topic": "Öğrenci hayatı"
+  },
+  {
+   "id": "day23-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-25T16:00:00Z",
+   "image": "media/posts/edutaly_post_23.jpg",
+   "caption": "Yeni arkadaşlar, yeni bir hayat. Dünyanın her yerinden öğrencilerle tarihi kampüslerde.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #öğrencihayatı",
+   "topic": "Öğrenci hayatı"
+  },
+  {
+   "id": "day23-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-25T16:00:00Z",
+   "image": "media/posts/edutaly_post_23.jpg",
+   "caption": "İtalya'da öğrenci hayatı 🍕\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #öğrencihayatı",
+   "topic": "Öğrenci hayatı"
+  },
+  {
+   "id": "day24-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-26T09:30:00Z",
+   "image": "media/stories/edutaly_story_24.jpg",
+   "caption": "",
+   "topic": "Galileo Padova"
+  },
+  {
+   "id": "day24-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-26T16:00:00Z",
+   "image": "media/posts/edutaly_post_24.jpg",
+   "caption": "Galileo 1592'den itibaren 18 yıl Padova'da ders verdi. Aynı koridorlar seni bekliyor.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #padova #galileo",
+   "topic": "Galileo Padova"
+  },
+  {
+   "id": "day24-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-26T16:00:00Z",
+   "image": "media/posts/edutaly_post_24.jpg",
+   "caption": "Galileo'nun koridorlarında yürümek 🔭\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #padova #galileo",
+   "topic": "Galileo Padova"
+  },
+  {
+   "id": "day25-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-27T09:30:00Z",
+   "image": "media/stories/edutaly_story_25.jpg",
+   "caption": "",
+   "topic": "Erasmus+"
+  },
+  {
+   "id": "day25-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-27T16:00:00Z",
+   "image": "media/posts/edutaly_post_25.jpg",
+   "caption": "İtalya'dan Avrupa'nın dört bir yanına bir dönem değişim fırsatı.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #erasmus",
+   "topic": "Erasmus+"
+  },
+  {
+   "id": "day25-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-27T16:00:00Z",
+   "image": "media/posts/edutaly_post_25.jpg",
+   "caption": "İtalya'dan Avrupa'ya Erasmus+ ✈️\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #erasmus",
+   "topic": "Erasmus+"
+  },
+  {
+   "id": "day26-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-28T09:30:00Z",
+   "image": "media/stories/edutaly_story_26.jpg",
+   "caption": "",
+   "topic": "Takipte kal"
+  },
+  {
+   "id": "day26-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-28T16:00:00Z",
+   "image": "media/posts/edutaly_post_26.jpg",
+   "caption": "Üniversite haberleri, başvuru ipuçları ve İtalya'dan güncellemeler için takipte kal.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "Takipte kal"
+  },
+  {
+   "id": "day26-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-28T16:00:00Z",
+   "image": "media/posts/edutaly_post_26.jpg",
+   "caption": "İtalya'da eğitimle ilgili her şey için takip et 🔔\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "Takipte kal"
+  },
+  {
+   "id": "day27-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-29T09:30:00Z",
+   "image": "media/stories/edutaly_story_27.jpg",
+   "caption": "",
+   "topic": "SSS"
+  },
+  {
+   "id": "day27-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-29T16:00:00Z",
+   "image": "media/posts/edutaly_post_27.jpg",
+   "caption": "İtalyanca şart mı? Hayır, İngilizce programlar var.\nHarçlar yüksek mi? Devlet üniversitelerinde gelire göre belirlenir.\nVize işlemi yapıyor musunuz? Hayır, kapsam dışıdır.\nBaşka sorun varsa yorumlara yaz.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #sss",
+   "topic": "SSS"
+  },
+  {
+   "id": "day27-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-29T16:00:00Z",
+   "image": "media/posts/edutaly_post_27.jpg",
+   "caption": "En çok sorulan 3 soru ❓\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #sss",
+   "topic": "SSS"
+  },
+  {
+   "id": "day28-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-11-30T09:30:00Z",
+   "image": "media/stories/edutaly_story_28.jpg",
+   "caption": "",
+   "topic": "Söz: kampüs"
+  },
+  {
+   "id": "day28-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-11-30T16:00:00Z",
+   "image": "media/posts/edutaly_post_28.jpg",
+   "caption": "Burada tarih ders kitabında değil, kampüsün kendisi.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #torino",
+   "topic": "Söz: kampüs"
+  },
+  {
+   "id": "day28-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-11-30T16:00:00Z",
+   "image": "media/posts/edutaly_post_28.jpg",
+   "caption": "Tarihin içinde ders almak 🏛️\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #torino",
+   "topic": "Söz: kampüs"
+  },
+  {
+   "id": "day29-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-12-01T09:30:00Z",
+   "image": "media/stories/edutaly_story_29.jpg",
+   "caption": "",
+   "topic": "Son başvurular"
+  },
+  {
+   "id": "day29-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-12-01T16:00:00Z",
+   "image": "media/posts/edutaly_post_29.jpg",
+   "caption": "Kontenjanlar dolmadan ücretsiz görüşmeni ayarla. Programa göre başvuru tarihleri farklı; erken başlamak her zaman avantaj.\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly #başvuru",
+   "topic": "Son başvurular"
+  },
+  {
+   "id": "day29-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-12-01T16:00:00Z",
+   "image": "media/posts/edutaly_post_29.jpg",
+   "caption": "Başvurular için zaman daralıyor ⏰\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly #başvuru",
+   "topic": "Son başvurular"
+  },
+  {
+   "id": "day30-story",
+   "platform": "instagram",
+   "kind": "story",
+   "when_utc": "2026-12-02T09:30:00Z",
+   "image": "media/stories/edutaly_story_30.jpg",
+   "caption": "",
+   "topic": "İtalya'ya giden yol"
+  },
+  {
+   "id": "day30-post",
+   "platform": "instagram",
+   "kind": "feed",
+   "when_utc": "2026-12-02T16:00:00Z",
+   "image": "media/posts/edutaly_post_30.jpg",
+   "caption": "Ankara ve Torino'dan, İtalya'ya giden yolda yanındayız.\nTürkiye: +90 534 676 32 27\nİtalya: +39 320 681 89 22\nedutaly.com\n\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n\n#italyadaeğitim #italyadaüniversite #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "İtalya'ya giden yol"
+  },
+  {
+   "id": "day30-tiktok",
+   "platform": "tiktok",
+   "kind": "photo",
+   "when_utc": "2026-12-02T16:00:00Z",
+   "image": "media/posts/edutaly_post_30.jpg",
+   "caption": "İtalya'ya giden yol Edutaly 🇮🇹\nÜcretsiz ilk görüşme için DM, WhatsApp +90 534 676 32 27 veya edutaly.com\n#italyadaeğitim #yurtdışıeğitim #italya #üniversite #edutaly",
+   "topic": "İtalya'ya giden yol"
+  }
+ ]
+}
