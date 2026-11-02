@@ -1,0 +1,49 @@
+name: Otomatik paylaşım
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"        # her 20 dakikada bir zamanı gelenleri kontrol et
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "run | check | status | post"
+        default: "check"
+      item_id:
+        description: "post komutu için paylaşım kimliği (örn. day01-post)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autopost
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Paylaş
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          TIKTOK_ENABLED: ${{ vars.TIKTOK_ENABLED }}
+          TIKTOK_PRIVACY: ${{ vars.TIKTOK_PRIVACY }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL }}
+          DRY_RUN: ${{ vars.DRY_RUN }}
+        run: python scripts/autopost.py ${{ github.event.inputs.command || 'run' }} ${{ github.event.inputs.item_id }}
+      - name: Kayıtları kaydet
+        if: always()
+        run: |
+          git config user.name "edutaly-bot"
+          git config user.email "bot@edutaly.com"
+          git add posted.json
+          git diff --cached --quiet || (git commit -m "Paylaşım kaydı güncellendi" && git push)
