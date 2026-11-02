@@ -1,0 +1,20 @@
+name: Instagram token yenile
+
+on:
+  schedule:
+    - cron: "0 6 */7 * *"          # haftada bir; token 60 günlük, böylece hiç dolmaz
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Yenile
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: python scripts/autopost.py refresh-ig
