@@ -29,7 +29,12 @@ SCHEDULE = ROOT / "schedule.json"
 STATE = ROOT / "posted.json"
 # Meta "Unified login" sistem kullanıcısı anahtarı graph.facebook.com üzerinden çalışır ve süresi dolmaz.
 # Eski "Instagram login" anahtarı için IG_API=https://graph.instagram.com/v21.0 verilebilir.
-IG_API = os.getenv("IG_API", "https://graph.facebook.com/v25.0")
+_TOK = os.getenv("IG_ACCESS_TOKEN", "")
+# "IGAA..." ile başlayan anahtar Instagram girişi anahtarıdır (graph.instagram.com, 60 gün, yenilenir);
+# "EAA..." ile başlayan Facebook / sistem kullanıcısı anahtarıdır (graph.facebook.com).
+IG_API = os.getenv("IG_API") or ("https://graph.instagram.com/v25.0" if _TOK.startswith("IG")
+                                  else "https://graph.facebook.com/v25.0")
+DEFAULT_IG_USER_ID = "17841454154264420"   # @edutalyegitimvedanismanlik
 GRACE = timedelta(hours=int(os.getenv("GRACE_HOURS", "12")))   # geç kalan paylaşımı en fazla bu kadar sonra yap
 MAX_PER_RUN = int(os.getenv("MAX_PER_RUN", "3"))
 DRY = os.getenv("DRY_RUN", "").lower() == "true"
@@ -104,6 +109,8 @@ def ig_token():
 def ig_user_id():
     if os.getenv("IG_USER_ID"):
         return os.environ["IG_USER_ID"]
+    if DEFAULT_IG_USER_ID:
+        return DEFAULT_IG_USER_ID
     # Sistem kullanıcısı / Facebook anahtarı: bağlı sayfalardaki Instagram işletme hesabı
     code, acc = http("GET", f"{IG_API}/me/accounts",
                      {"fields": "instagram_business_account{id,username}", "access_token": ig_token()})
@@ -126,9 +133,15 @@ def ig_publish(item):
         params["media_type"] = "STORIES"
     else:
         params["caption"] = item["caption"]
+        if item.get("alt_text"):
+            params["alt_text"] = item["alt_text"][:1000]   # Instagram araması için görsel açıklaması
     if DRY:
-        log("DRY_RUN instagram", item["id"], params["image_url"]); return "dry-run"
+        log("DRY_RUN instagram", item["id"], params["image_url"], "alt_text" in params); return "dry-run"
     code, res = http("POST", f"{IG_API}/{uid}/media", params)
+    if (code != 200 or "id" not in res) and "alt_text" in params:
+        log("alt_text kabul edilmedi, alt text olmadan tekrar deneniyor:", res)
+        params.pop("alt_text")
+        code, res = http("POST", f"{IG_API}/{uid}/media", params)
     if code != 200 or "id" not in res:
         raise RuntimeError(f"Instagram container hatası: {res}")
     cid = res["id"]
