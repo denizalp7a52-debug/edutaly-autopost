@@ -27,7 +27,9 @@ from urllib import request, parse, error
 ROOT = Path(__file__).resolve().parent.parent
 SCHEDULE = ROOT / "schedule.json"
 STATE = ROOT / "posted.json"
-IG_API = "https://graph.instagram.com/v21.0"
+# Meta "Unified login" sistem kullanıcısı anahtarı graph.facebook.com üzerinden çalışır ve süresi dolmaz.
+# Eski "Instagram login" anahtarı için IG_API=https://graph.instagram.com/v21.0 verilebilir.
+IG_API = os.getenv("IG_API", "https://graph.facebook.com/v25.0")
 GRACE = timedelta(hours=int(os.getenv("GRACE_HOURS", "12")))   # geç kalan paylaşımı en fazla bu kadar sonra yap
 MAX_PER_RUN = int(os.getenv("MAX_PER_RUN", "3"))
 DRY = os.getenv("DRY_RUN", "").lower() == "true"
@@ -102,10 +104,19 @@ def ig_token():
 def ig_user_id():
     if os.getenv("IG_USER_ID"):
         return os.environ["IG_USER_ID"]
+    # Sistem kullanıcısı / Facebook anahtarı: bağlı sayfalardaki Instagram işletme hesabı
+    code, acc = http("GET", f"{IG_API}/me/accounts",
+                     {"fields": "instagram_business_account{id,username}", "access_token": ig_token()})
+    if code == 200:
+        for page in acc.get("data", []):
+            iga = page.get("instagram_business_account")
+            if iga:
+                return str(iga["id"])
+    # Instagram login anahtarı
     code, me = http("GET", f"{IG_API}/me", {"fields": "user_id,username", "access_token": ig_token()})
-    if code != 200:
-        raise RuntimeError(f"Instagram hesabı okunamadı: {me}")
-    return str(me.get("user_id") or me["id"])
+    if code == 200 and (me.get("user_id") or me.get("id")):
+        return str(me.get("user_id") or me["id"])
+    raise RuntimeError(f"Instagram hesabı bulunamadı; IG_USER_ID secret'ını girin. {acc} {me}")
 
 
 def ig_publish(item):
@@ -136,6 +147,9 @@ def ig_publish(item):
 
 
 def ig_refresh():
+    if "graph.instagram.com" not in IG_API:
+        log("Sistem kullanıcısı anahtarı süresiz; yenileme gerekmiyor.")
+        return
     code, res = http("GET", "https://graph.instagram.com/refresh_access_token",
                      {"grant_type": "ig_refresh_token", "access_token": ig_token()})
     if code != 200 or "access_token" not in res:
@@ -247,9 +261,13 @@ def cmd_check():
     sched, _ = load()
     ok = True
     if os.getenv("IG_ACCESS_TOKEN"):
-        code, me = http("GET", f"{IG_API}/me", {"fields": "user_id,username,account_type", "access_token": ig_token()})
-        log("Instagram:", code, me)
-        ok &= code == 200
+        try:
+            uid = ig_user_id()
+            code, me = http("GET", f"{IG_API}/{uid}", {"fields": "username,media_count", "access_token": ig_token()})
+            log("Instagram:", code, me)
+            ok &= code == 200
+        except Exception as e:
+            log("Instagram HATA:", e); ok = False
     else:
         log("Instagram: IG_ACCESS_TOKEN yok"); ok = False
     for item in sched["items"][:2]:
